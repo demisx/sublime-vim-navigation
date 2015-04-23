@@ -1,4 +1,4 @@
-### SublimeTex Native VIM Navigation
+### SublimeText Native VIM Navigation
 
 This plugin allows you to use some native VIM shortcuts when navigating 
 file contents. Navigate faster without constantly moving your hand to the 
