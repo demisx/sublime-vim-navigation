@@ -28,5 +28,10 @@
 
   // move and select by paragraph
   { "keys": ["ctrl+shift+["], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true} },
-  { "keys": ["ctrl+shift+]"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true} }
+  { "keys": ["ctrl+shift+]"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true} },
+  // additions for home and end - not VIM but useful anyway + doesn't clash with Windows options
+  { "keys": ["alt+y"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["alt+o"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["alt+shift+y"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+  { "keys": ["alt+shift+o"], "command": "move_to", "args": {"to": "eol", "extend": true} }
 ]
