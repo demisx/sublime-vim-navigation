@@ -1,13 +1,8 @@
-### SublimeTex Native VIM Navigation
+### Sublime Text Native VIM Navigation
 
 This plugin allows you to use some native VIM shortcuts when navigating 
 file contents. Navigate faster without constantly moving your hand to the 
 cursor keys. 
-
-Please create a new issue if you would like to add additional mappings. 
-I am trying to keep only most useful keymaps with minimum interference with the
-default ones.
-
 
 ## Usage
 
