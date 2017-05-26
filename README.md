@@ -18,14 +18,12 @@ _Note: Add <kbd>shift</kbd> to any of these to select characters while moving_
 * <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>j</kbd> - move cursor down
 * <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>l</kbd> - move cursor right
 * <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>h</kbd> - move cursor left
+* <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>y</kbd> - move cursor to beginning of line
+* <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>o</kbd> - move cursor to end of line
 
 **Move by words:**
 * <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>w</kbd> - move forward by word
 * <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>b</kbd> - move backwards by word
-
-**Move by words:**
-* <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>y</kbd> - move to beginning of line
-* <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>o</kbd> - move to end of line
 
 **Move by paragraph:**
 * <kbd>control</kbd>(Mac) / <kbd>alt</kbd>(Linux/Win) + <kbd>[</kbd> - move forward by paragraph
