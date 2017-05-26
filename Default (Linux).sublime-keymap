@@ -28,5 +28,10 @@
 
   // move and select by paragraph
   { "keys": ["alt+shift+["], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true} },
-  { "keys": ["alt+shift+]"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true} }
+  { "keys": ["alt+shift+]"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true} },
+  // move and select by EOL / BOL
+  { "keys": ["alt+y"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["alt+o"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["alt+shift+y"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+  { "keys": ["alt+shift+o"], "command": "move_to", "args": {"to": "eol", "extend": true} }
 ]
